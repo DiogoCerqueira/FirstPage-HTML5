@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  width: 700px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -34,7 +34,6 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 10px;
-  width: 500px;
 }
 
 article {
@@ -111,6 +110,7 @@ footer p {
 
 .related-posts {
   list-style: none;
+  margin-left: 0;
 }
 
 li:first-child {
@@ -216,4 +216,18 @@ nav {
   clear: both;
   content: "";
   display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
